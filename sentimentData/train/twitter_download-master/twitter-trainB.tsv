@@ -1,0 +1,16 @@
+Hi there! We're gonna get you all set up to use Semeval sentiment analysis.
+
+In the web browser window that opens please choose to Allow
+access. Copy the PIN number that appears on the next page and paste or
+type it here:
+
+Opening: https://api.twitter.com/oauth/authorize?oauth_token=JWMPgXh3vCNtHPvCOItLibwP8ePPpkYq
+
+Please enter the PIN: Traceback (most recent call last):
+  File "download_tweets_api.py", line 20, in <module>
+    oauth_dance("Semeval sentiment analysis", CONSUMER_KEY, CONSUMER_SECRET, MY_TWITTER_CREDS)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/oauth_dance.py", line 75, in oauth_dance
+    oauth_verifier = _input("Please enter the PIN: ").strip()
+IOError: [Errno 9] Bad file descriptor
+xcb_connection_has_error() returned true
+firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
